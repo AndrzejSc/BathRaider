@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   Pracownia Temperatury
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <!--===============================================================================================-->
+  <link href="images/icons/favicon.ico" rel="icon" type="image/png"/>
+  <!--===============================================================================================-->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+  <!--===============================================================================================-->
+  <link href="fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+  <!--===============================================================================================-->
+  <link href="vendor/animate/animate.css" rel="stylesheet" type="text/css"/>
+  <!--===============================================================================================-->
+  <link href="vendor/select2/select2.min.css" rel="stylesheet" type="text/css"/>
+  <!--===============================================================================================-->
+  <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" type="text/css"/>
+  <!--===============================================================================================-->
+  <link href="strona/css/util.css" rel="stylesheet" type="text/css"/>
+  <link href="strona/css/main.css" rel="stylesheet" type="text/css"/>
+  <!--===============================================================================================-->
+ </head>
+ <body>
+  <div class="limiter">
+   <div class="container-table100">
+    <div class="wrap-table100">
+     <div class="table100">
+      <table>
+       <thead>
+        <tr class="table100-head">
+         <th class="column1" colspan="3" id="time">
+          25.02.2020 14:45:17
+         </th>
+        </tr>
+        <tr class="table100-head">
+         <th class="column1">
+          Termostat
+         </th>
+         <th class="column2">
+          Temperatura ustawiona
+         </th>
+         <th class="column3">
+          Temperatura aktualna
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td class="column1">
+          Fluke 7008 - Wodny
+         </td>
+         <td class="column2" id="SetWaterTemp_html">
+          25.120 C
+         </td>
+         <td class="column3" id="CurrentWaterTemp_html">
+          49.07 C
+         </td>
+        </tr>
+        <tr>
+         <td class="column1">
+          Fluke 7080 - Spirytusowy
+         </td>
+         <td class="column2" id="SetSpiritTemp_html">
+          -69.85 C
+         </td>
+         <td class="column3" id="CurrentSpiritTemp_html">
+          -69.36 C
+         </td>
+        </tr>
+        <tr>
+         <td class="column1">
+          Fluke 6022 - Olejowy
+         </td>
+         <td class="column2" id="SetOilTemp_html">
+          Błąd połączenia
+         </td>
+         <td class="column3" id="CurrentOilTemp_html">
+          Błąd połączenia
+         </td>
+        </tr>
+        <tr>
+         <td class="column1">
+          Fluke 6050H - Solny
+         </td>
+         <td class="column2" id="SetSaltTemp_html">
+          Błąd połączenia
+         </td>
+         <td class="column3" id="CurrentSaltTemp_html">
+          Błąd połączenia
+         </td>
+        </tr>
+	  <tr>
+         <td class="column1">
+          MOSTEK 1
+         </td>
+         <td class="column2" id="Mostek1Idn_html">
+          Mostek1 - *IDN?
+         </td>
+         <td class="column3" id="Mostek1Odczyt_html">
+          Mostek 1 - ODCZYT
+         </td>
+        </tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--===============================================================================================-->
+  <script src="vendor/jquery/jquery-3.2.1.min.js">
+  </script>
+  <!--===============================================================================================-->
+  <script src="vendor/bootstrap/js/popper.js">
+  </script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js">
+  </script>
+  <!--===============================================================================================-->
+  <script src="vendor/select2/select2.min.js">
+  </script>
+  <!--===============================================================================================-->
+  <script src="js/main.js">
+  </script>
+ </body>
+</html>
